@@ -4,7 +4,7 @@ Spotifast is a straight-forward Python script to download .mp3 files from a comp
 
 ## Installation
 
-Clone this git repository. 
+Clone this git repository. In addition, you also need to create Spotify developer credentials. This can easily be done if you have a regular Spotify account at https://developer.spotify.com/ Use these credentials in the python script.
 
 ## Usage
 
