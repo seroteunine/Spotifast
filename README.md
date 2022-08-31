@@ -10,9 +10,11 @@ Clone this git repository. In addition, you also need to create Spotify develope
 
 Change these in the file (important: keep as strings so do not remove the quotation marks):
 
+```
 cid = "PUT SPOTIFY CLIENT ID HERE"
 secret = "PUT SPOTIFY SECRET KEY HERE"
 playlist_LINK = "PUT SPOTIFY PLAYLIST LINK HERE (such as https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF?si=f22367f331da414b)"
+```
 
 then run
 ```
