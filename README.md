@@ -4,7 +4,7 @@ Spotifast is a straight-forward Python script to download .mp3 files from a comp
 
 ## Description
 
-All-in-one script that use the spotipy module to retrieve songs from a Spotify playlist, then uses Selenium-module to look up each song on a free mp3 download site. Finally uses the Requests module to actually download them (faster/cleaner then Selenium). Puts these files inside the same folder as script.
+All-in-one script that use the Spotipy module to retrieve songs from a Spotify playlist, then uses Selenium-module to look up each song on a free mp3 download site. Finally uses the Requests module to actually download them (faster/cleaner then Selenium). Puts these files inside the same folder as script.
 
 ## Installation
 
