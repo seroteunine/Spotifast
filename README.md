@@ -8,7 +8,7 @@ All-in-one script that use the spotipy module to retrieve songs from a Spotify p
 
 ## Installation
 
-Clone this git repository. In addition, you also need to create Spotify developer credentials. This can easily be done if you have a regular Spotify account at https://developer.spotify.com/ Use these credentials in the python script.
+Clone or download this git repository. In addition, you also need to create Spotify developer credentials. This can easily be done if you have a regular Spotify account at https://developer.spotify.com/ Use these credentials in the python script.
 
 ## Usage
 
