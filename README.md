@@ -9,6 +9,9 @@ Clone this git repository. In addition, you also need to create Spotify develope
 ## Usage
 
 Change the ClientID, SecretKey and PlaylistURL in the main.py file and run it with python.
+```
+python main.py
+```
 
 ## Todo
 -Easier user experience (GUI, no need for spotify developer credentials, choose download destination folder)
