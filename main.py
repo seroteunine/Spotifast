@@ -1,9 +1,9 @@
-import requests, os, sys, time
+import requests, os, sys, time, spotipy
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
-import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 #Spotify setup
@@ -16,7 +16,7 @@ playlist_URI = playlist_LINK.split("/")[-1].split("?")[0]
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 
 #Setup driver
-browser = webdriver.Chrome(ChromeDriverManager().install())
+browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 #Create download folder in current wd
 parent_dir = os.path.dirname(os.path.realpath(sys.argv[0]))
